@@ -5,7 +5,7 @@ import Center from '../Center/Center';
 const Default = {
     title: 'Form/Button',
     component: Button,
-    decorators: [story => <Center>{story()}</Center>]
+    // decorators: [story => <Center>{story()}</Center>] // apply decorator on a component level
     // args: {
     //     children: 'Button' // optionally declare args at component level to apply to all Stories
     // }
