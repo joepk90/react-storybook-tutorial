@@ -27,3 +27,10 @@ Danger.args = {
     variantColor: 'red',
     children: 'Danger'
 }
+
+export const Log = Template.bind({});
+Log.args = {
+    variantColor: 'blue',
+    children: 'Log',
+    onClick: () => console.log('button clicked')
+}
