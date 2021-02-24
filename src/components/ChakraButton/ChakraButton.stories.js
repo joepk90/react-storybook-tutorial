@@ -3,7 +3,12 @@ import {Button} from '@chakra-ui/core';
 
 export default {
     title: 'Chakra/Button',
-    component: Button
+    component: Button,
+    argTypes: {
+    // defining arg controls (required in previus versions of storybook due to bug)
+    //     variantColor: {control: 'text'},
+    //     children: {control: 'text'}
+    }
 }
 
 const Template = args => <Button {...args} />
