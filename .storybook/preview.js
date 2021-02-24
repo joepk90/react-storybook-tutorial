@@ -1,5 +1,9 @@
 import {ThemeProvider, theme, CSSReset, Box} from '@chakra-ui/core'
-import '@storybook/addon-console';
+import { withConsole } from '@storybook/addon-console';
+import { addDecorator } from '@storybook/react';
+
+// shows which component the console log was declared
+addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
