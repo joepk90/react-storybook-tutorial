@@ -5,6 +5,7 @@ export default {
     title: 'Chakra/Button',
     component: Button,
     argTypes: {
+        onClick: {action: 'clicked'},
     // defining arg controls (required in previus versions of storybook due to bug)
     //     variantColor: {control: 'text'},
     //     children: {control: 'text'}
