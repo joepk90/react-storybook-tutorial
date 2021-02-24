@@ -2,7 +2,7 @@ import React from 'react';
 import Input from './Input'
 
 const Default = {
-    title: 'Input',
+    title: 'Form/Input', // Further nesting can also be setup. For example: Form/Control/Input
     component: Input
 }
 
